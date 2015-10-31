@@ -1,5 +1,0 @@
-test
-test add
-test.2
-test commit -a
-just a test
