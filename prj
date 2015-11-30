@@ -1,0 +1,3782 @@
+prj=/home/hackooo/Desktop/hackoooX {
+ prj
+ bf10=bf10 {
+  Makefile
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bx_enh_dbg.ini
+  kernel.bin
+  boot=boot {
+   Makefile
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   protect.h
+   type.h
+  }
+  kernel=kernel {
+   kernel.asm
+   start.c
+  }
+  lib=lib {
+   kliba.asm
+   string.asm
+  }
+ }
+ bf11=bf11 {
+  Makefile
+  Makefile.1
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bx_enh_dbg.ini
+  kernel.bin
+  boot=boot {
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   protect.h
+   proto.h
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   global.c
+   i8259.c
+   kernel.asm
+   protect.c
+   start.c
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf12=bf12 {
+  Makefile
+  Makefile.1
+  a.img
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bochsrc
+  bx_enh_dbg.ini
+  kernel.bin
+  boot=boot {
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   protect.h
+   proto.h
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   global.c
+   i8259.c
+   kernel.asm
+   protect.c
+   start.c
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf13=bf13 {
+  Makefile
+  a.img
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bochsrc
+  bx_enh_dbg.ini
+  kernel.bin
+  boot=boot {
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   proc.h
+   protect.h
+   proto.h
+   sconst.inc
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   global.c
+   i8259.c
+   kernel.asm
+   main.c
+   protect.c
+   start.c
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf14=bf14 {
+  Makefile
+  a.img
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bochsrc
+  bx_enh_dbg.ini
+  kernel.bin
+  boot=boot {
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   proc.h
+   protect.h
+   proto.h
+   sconst.inc
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   global.c
+   i8259.c
+   kernel.asm
+   kernel.final.asm
+   kernel1.asm
+   kernel2.asm
+   kernel3.asm
+   kernel4.asm
+   kernel5.asm
+   main.c
+   protect.c
+   start.c
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf15=bf15 {
+  Makefile
+  a.img
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bochsrc
+  bx_enh_dbg.ini
+  kernel.bin
+  boot=boot {
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   proc.h
+   protect.h
+   proto.h
+   sconst.inc
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   global.c
+   i8259.c
+   kernel.asm
+   kernel1.asm
+   kernel2.asm
+   kernel3.asm
+   main.c
+   protect.c
+   start.c
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf16=bf16 {
+  Makefile
+  a.img
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bochsrc
+  bx_enh_dbg.ini
+  kernel.bin
+  boot=boot {
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  e=e {
+   Makefile
+   a.img
+   bochsrc
+   boot=boot {
+    boot.asm
+    loader.asm
+    include=include {
+     fat12hdr.inc
+     load.inc
+     pm.inc
+    }
+   }
+   include=include {
+    const.h
+    global.h
+    proc.h
+    protect.h
+    proto.h
+    sconst.inc
+    string.h
+    type.h
+   }
+   kernel=kernel {
+    clock.c
+    global.c
+    i8259.c
+    kernel.asm
+    main.c
+    protect.c
+    start.c
+   }
+   lib=lib {
+    klib.c
+    kliba.asm
+    string.asm
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   proc.h
+   protect.h
+   proto.h
+   sconst.inc
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   clock.c
+   global.c
+   i8259.c
+   kernel.asm
+   main.c
+   protect.c
+   start.c
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf17=bf17 {
+  Makefile
+  a.img
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bochsrc
+  bx_enh_dbg.ini
+  kernel.bin
+  kernel.bin.asm
+  boot=boot {
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   proc.h
+   protect.h
+   proto.h
+   sconst.inc
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   clock.c
+   global.c
+   i8259.c
+   kernel.asm
+   main.c
+   protect.c
+   start.c
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf18=bf18 {
+  Makefile
+  a.img
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsout.txt
+  bochsrc
+  bx_enh_dbg.ini
+  kernel.bin
+  boot=boot {
+   boot.asm
+   boot.bin
+   loader.asm
+   loader.bin
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   proc.h
+   protect.h
+   proto.h
+   sconst.inc
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   clock.c
+   global.c
+   i8259.c
+   kernel.asm
+   main.c
+   protect.c
+   start.c
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf19=bf19 {
+  Makefile
+  a.img
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+  bochsrc
+  boot=boot {
+   boot.asm
+   loader.asm
+   include=include {
+    fat12hdr.inc
+    load.inc
+    pm.inc
+   }
+  }
+  include=include {
+   const.h
+   global.h
+   proc.h
+   protect.h
+   proto.h
+   sconst.inc
+   string.h
+   type.h
+  }
+  kernel=kernel {
+   clock.c
+   global.c
+   i8259.c
+   kernel.asm
+   main.c
+   proc.c
+   protect.c
+   start.c
+   syscall.asm
+  }
+  lib=lib {
+   klib.c
+   kliba.asm
+   string.asm
+  }
+ }
+ bf3=bf3 {
+  bf.asm
+  bf.bin
+  bf.bochs
+  bf.img
+  bf.sh
+  inc.asm
+ }
+ bf4=bf4 {
+  bf.asm
+  bf.bochs
+  bf.img
+  bf.sh
+  bochsout.txt
+  bx_enh_dbg.ini
+  inc.asm
+ }
+ bf5=bf5 {
+  bf.asm
+  bf.bin
+  bf.bochs
+  bf.img
+  bf.sh
+  inc.asm
+ }
+ bf6=bf6 {
+  bf.asm
+  bf.bin
+  bf.bochs
+  bf.img
+  bf.sh
+  inc.asm
+ }
+ bf7=bf7 {
+  bf.asm
+  bf.bin
+  bf.bochs
+  bf.img
+  bf.sh
+  inc.asm
+  lib.inc
+ }
+ bf8=bf8 {
+  bf.asm
+  bf.bin
+  bf.bochs
+  bf.img
+  bf.sh
+  inc.asm
+  lib.inc
+ }
+ bf9=bf9 {
+  bf.asm
+  bf.bin
+  bf.bochs
+  bf.img
+  bf.img.empty
+  bf.sh
+ }
+ freedos=freedos {
+  freedos-img.tar.gz
+  freedos.bochs
+  freedos.img
+  freedos.sh
+  freedos-img=freedos-img {
+   a.img
+   b.img
+   bochsrc
+   c.img
+  }
+ }
+ orange=orange {
+  readme.doc
+  chapter1=chapter1 {
+   a=a {
+    a.img
+    bochsrc
+    boot.asm
+   }
+   b=b {
+    a.img
+    bochsrc
+    boot.asm
+   }
+  }
+  chapter10=chapter10 {
+   a=a {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     exit.c
+     fork.c
+     getpid.c
+     klib.c
+     kliba.asm
+     misc.c
+     open.c
+     printf.c
+     read.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     wait.c
+     write.c
+    }
+    mm=mm {
+     forkexit.c
+     main.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+   b=b {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     exit.c
+     fork.c
+     getpid.c
+     klib.c
+     kliba.asm
+     misc.c
+     open.c
+     printf.c
+     read.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     wait.c
+     write.c
+    }
+    mm=mm {
+     forkexit.c
+     main.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+   c=c {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    command=command {
+     Makefile
+     echo.c
+     pwd.c
+     start.asm
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     klib.c
+     kliba.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     exit.c
+     fork.c
+     getpid.c
+     misc.c
+     open.c
+     printf.c
+     read.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     wait.c
+     write.c
+    }
+    mm=mm {
+     forkexit.c
+     main.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+   d=d {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    command=command {
+     Makefile
+     echo.c
+     pwd.c
+     start.asm
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     klib.c
+     kliba.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     exec.c
+     exit.c
+     fork.c
+     getpid.c
+     misc.c
+     open.c
+     printf.c
+     read.c
+     stat.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     wait.c
+     write.c
+    }
+    mm=mm {
+     exec.c
+     forkexit.c
+     main.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+   e=e {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    command=command {
+     Makefile
+     echo.c
+     pwd.c
+     start.asm
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     klib.c
+     kliba.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     exec.c
+     exit.c
+     fork.c
+     getpid.c
+     misc.c
+     open.c
+     printf.c
+     read.c
+     stat.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     wait.c
+     write.c
+    }
+    mm=mm {
+     exec.c
+     forkexit.c
+     main.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+  }
+  chapter11=chapter11 {
+   a=a {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     hdboot.asm
+     hdloader.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    command=command {
+     Makefile
+     echo.c
+     pwd.c
+     start.asm
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     klib.c
+     kliba.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     exec.c
+     exit.c
+     fork.c
+     getpid.c
+     lseek.c
+     misc.c
+     open.c
+     printf.c
+     read.c
+     stat.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     wait.c
+     write.c
+    }
+    mm=mm {
+     exec.c
+     forkexit.c
+     main.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+   b=b {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    grubinst
+    boot=boot {
+     boot.asm
+     hdboot.asm
+     hdldr.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    command=command {
+     Makefile
+     echo.c
+     pwd.c
+     start.asm
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     klib.c
+     kliba.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     exec.c
+     exit.c
+     fork.c
+     getpid.c
+     lseek.c
+     misc.c
+     open.c
+     printf.c
+     read.c
+     stat.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     wait.c
+     write.c
+    }
+    mm=mm {
+     exec.c
+     forkexit.c
+     main.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+   c=c {
+    100m.img
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     hdboot.asm
+     hdldr.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    command=command {
+     Makefile
+     echo.c
+     pwd.c
+     start.asm
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     klib.c
+     kliba.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     exec.c
+     exit.c
+     fork.c
+     getpid.c
+     lseek.c
+     misc.c
+     open.c
+     printf.c
+     read.c
+     stat.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     wait.c
+     write.c
+    }
+    mm=mm {
+     exec.c
+     forkexit.c
+     main.c
+    }
+    scripts=scripts {
+     genlog
+     invalidate.hd
+     splitgraphs
+    }
+   }
+  }
+  chapter2=chapter2 {
+   linux=linux {
+    a.img
+    bochsrc
+    boot.asm
+   }
+   win=win {
+    a.img
+    bochsrc.bxrc
+    run.bat
+   }
+  }
+  chapter3=chapter3 {
+   a=a {
+    a.img
+    bochsrc
+    pm.inc
+    pmtest1.asm
+    pmtest1b.asm
+   }
+   b=b {
+    Makefile
+    bochsrc
+    freedos.img
+    pm
+    pm.img
+    pm.inc
+    pm.txt
+    pmtest2.asm
+   }
+   c=c {
+    Makefile
+    bochsrc
+    freedos.img
+    pm.img
+    pm.inc
+    pmtest3.asm
+   }
+   d=d {
+    Makefile
+    bochsrc
+    freedos.img
+    pm.img
+    pm.inc
+    pmtest4.asm
+   }
+   e=e {
+    Makefile
+    bochsrc
+    freedos.img
+    pm.img
+    pm.inc
+    pmtest5.asm
+    pmtest5a.asm
+    pmtest5b.asm
+    pmtest5c.asm
+   }
+   f=f {
+    Makefile
+    bochsrc
+    freedos.img
+    pm.img
+    pm.inc
+    pmtest6.asm
+   }
+   g=g {
+    Makefile
+    bochsrc
+    freedos.img
+    lib.inc
+    pm.img
+    pm.inc
+    pmtest7.asm
+   }
+   h=h {
+    Makefile
+    bochsrc
+    freedos.img
+    lib.inc
+    pm.img
+    pm.inc
+    pmtest8.asm
+   }
+   i=i {
+    Makefile
+    bochsrc
+    freedos.img
+    lib.inc
+    pm.img
+    pm.inc
+    pmtest9.asm
+    pmtest9a.asm
+    pmtest9b.asm
+    pmtest9c.asm
+   }
+  }
+  chapter4=chapter4 {
+   a=a {
+    Makefile
+    a.img
+    bochsrc
+    boot.asm
+   }
+   b=b {
+    Makefile
+    a.img
+    bochsrc
+    boot.asm
+    loader.asm
+   }
+   c=c {
+    Makefile
+    a.img
+    bochsrc
+    boot.asm
+    loader.asm
+   }
+  }
+  chapter5=chapter5 {
+   a=a {
+    hello.asm
+   }
+   b=b {
+    Makefile
+    bar.c
+    foo.asm
+   }
+   c=c {
+    Makefile
+    a.img
+    bochsrc
+    boot.asm
+    fat12hdr.inc
+    kernel.asm
+    loader.asm
+   }
+   d=d {
+    Makefile
+    a.img
+    bochsrc
+    boot.asm
+    fat12hdr.inc
+    kernel.asm
+    lib.inc
+    load.inc
+    loader.asm
+    pm.inc
+   }
+   e=e {
+    Makefile
+    a.img
+    bochsrc
+    boot.asm
+    fat12hdr.inc
+    kernel.asm
+    load.inc
+    loader.asm
+    pm.inc
+   }
+   f=f {
+    a.img
+    bochsrc
+    boot.asm
+    const.h
+    fat12hdr.inc
+    kernel.asm
+    kliba.asm
+    load.inc
+    loader.asm
+    pm.inc
+    protect.h
+    start.c
+    string.asm
+    type.h
+   }
+   g=g {
+    Makefile
+    Makefile.boot
+    a.img
+    bochsrc
+    boot=boot {
+     Makefile
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     protect.h
+     type.h
+    }
+    kernel=kernel {
+     kernel.asm
+     start.c
+    }
+    lib=lib {
+     kliba.asm
+     string.asm
+    }
+   }
+   h=h {
+    Makefile
+    Makefile.1
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     protect.h
+     proto.h
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     global.c
+     i8259.c
+     kernel.asm
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   i=i {
+    Makefile
+    Makefile.1
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     protect.h
+     proto.h
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     global.c
+     i8259.c
+     kernel.asm
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+  }
+  chapter6=chapter6 {
+   a=a {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   b=b {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     global.c
+     i8259.c
+     kernel.final.asm
+     kernel1.asm
+     kernel2.asm
+     kernel3.asm
+     kernel4.asm
+     kernel5.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   c=c {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     global.c
+     i8259.c
+     kernel.asm
+     kernel1.asm
+     kernel2.asm
+     kernel3.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   d=d {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   e=e {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   f=f {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   g=g {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   h=h {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   i=i {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   j=j {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   k=k {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     protect.c
+     start.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   l=l {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   m=m {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   n=n {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   o=o {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   p=p {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   q=q {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   r=r {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+  }
+  chapter7=chapter7 {
+   a=a {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   b=b {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   c=c {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   d=d {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   e=e {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   f=f {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   g=g {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   h=h {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   i=i {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   j=j {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   k=k {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   l=l {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   m=m {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   n=n {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   o=o {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     printf.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+     vsprintf.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+  }
+  chapter8=chapter8 {
+   _base_=_base_ {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     printf.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     tty.c
+     vsprintf.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     string.asm
+    }
+   }
+   a=a {
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    include=include {
+     console.h
+     const.h
+     global.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     printf.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     systask.c
+     tty.c
+     vsprintf.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     misc.c
+     string.asm
+    }
+   }
+  }
+  chapter9=chapter9 {
+   a=a {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     main.c
+    }
+    include=include {
+     console.h
+     const.h
+     fs.h
+     global.h
+     hd.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     printf.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     systask.c
+     tty.c
+     vsprintf.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     misc.c
+     string.asm
+    }
+   }
+   b=b {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     main.c
+    }
+    include=include {
+     config.h
+     console.h
+     const.h
+     fs.h
+     global.h
+     hd.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     printf.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     systask.c
+     tty.c
+     vsprintf.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     misc.c
+     string.asm
+    }
+   }
+   c=c {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     main.c
+    }
+    include=include {
+     config.h
+     console.h
+     const.h
+     fs.h
+     global.h
+     hd.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     printf.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     systask.c
+     tty.c
+     vsprintf.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     misc.c
+     string.asm
+    }
+   }
+   d=d {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     main.c
+    }
+    include=include {
+     config.h
+     console.h
+     const.h
+     fs.h
+     global.h
+     hd.h
+     keyboard.h
+     keymap.h
+     proc.h
+     protect.h
+     proto.h
+     sconst.inc
+     string.h
+     tty.h
+     type.h
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     printf.c
+     proc.c
+     protect.c
+     start.c
+     syscall.asm
+     systask.c
+     tty.c
+     vsprintf.c
+    }
+    lib=lib {
+     klib.c
+     kliba.asm
+     misc.c
+     string.asm
+    }
+   }
+   e=e {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     main.c
+     misc.c
+     open.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     klib.c
+     kliba.asm
+     misc.c
+     open.c
+     printf.c
+     string.asm
+     syscall.asm
+     vsprintf.c
+    }
+    tmp=tmp {
+     Makefile
+     f.c
+    }
+   }
+   f=f {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     klib.c
+     kliba.asm
+     misc.c
+     open.c
+     printf.c
+     read.c
+     string.asm
+     syscall.asm
+     vsprintf.c
+     write.c
+    }
+   }
+   g=g {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    genlog
+    splitgraphs
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     disklog.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     getpid.c
+     klib.c
+     kliba.asm
+     misc.c
+     open.c
+     printf.c
+     read.c
+     string.asm
+     syscall.asm
+     syslog.c
+     vsprintf.c
+     write.c
+    }
+   }
+   h=h {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     getpid.c
+     klib.c
+     kliba.asm
+     misc.c
+     open.c
+     printf.c
+     read.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     write.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+   i=i {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     getpid.c
+     klib.c
+     kliba.asm
+     misc.c
+     open.c
+     printf.c
+     read.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     write.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+   j=j {
+    80m.img.gz
+    Makefile
+    a.img
+    bochsrc
+    boot=boot {
+     boot.asm
+     loader.asm
+     include=include {
+      fat12hdr.inc
+      load.inc
+      pm.inc
+     }
+    }
+    fs=fs {
+     disklog.c
+     link.c
+     main.c
+     misc.c
+     open.c
+     read_write.c
+    }
+    include=include {
+     stdio.h
+     string.h
+     type.h
+     sys=sys {
+      config.h
+      console.h
+      const.h
+      fs.h
+      global.h
+      hd.h
+      keyboard.h
+      keymap.h
+      proc.h
+      protect.h
+      proto.h
+      sconst.inc
+      tty.h
+     }
+    }
+    kernel=kernel {
+     clock.c
+     console.c
+     global.c
+     hd.c
+     i8259.c
+     kernel.asm
+     keyboard.c
+     main.c
+     proc.c
+     protect.c
+     start.c
+     systask.c
+     tty.c
+    }
+    lib=lib {
+     close.c
+     getpid.c
+     klib.c
+     kliba.asm
+     misc.c
+     open.c
+     printf.c
+     read.c
+     string.asm
+     syscall.asm
+     syslog.c
+     unlink.c
+     vsprintf.c
+     write.c
+    }
+    scripts=scripts {
+     genlog
+     splitgraphs
+    }
+   }
+  }
+ }
+ test=test {
+  bar.c
+  foo.asm
+  foobar
+  hello
+  hello.asm
+  bar.o
+  foo.o
+  hello.o
+ }
+}

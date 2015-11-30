@@ -1,0 +1,10 @@
+megs:32
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/share/vgabios/vgabios.bin
+floppya: 1_44=freedos.img, status=inserted
+floppyb: image="fattest.img", status=inserted
+boot: floppy
+log:bochsout.txt
+mouse: enabled=0
+keyboard: keymap=/usr/share/bochs/keymaps/x11-pc-us.map
+display_library: x, options="gui_debug"
